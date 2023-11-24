@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+img{
+    max-width: 320px;
+    
+}
+div{
+    background-color: bisque;
+    border: 10px solid rgb(232, 69, 69);
+    border-radius: 2%;
+    height: 50vh;
+    width: 50vh;
+}

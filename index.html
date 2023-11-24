@@ -1,150 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatable" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Personal portfolio website</title>
-</head>
-<style>
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arlal, Helvetica, sans-serif;
-}
-a{
-    text-decoration: none;
-}
-.hero{
-    height: 10vh;
-    width: 100vw;
-    background: #eff4fd
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px
-}
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: blue;
-}
-
-.logo::first-letter{
-    font-size: 40px;
-    border: 2px solid blue;
-    border-right: transparent;
-    padding-left: 5px;
-    color: #fd4766;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 10px 20px;
-}
-
-nav ul li a{
-    color: #1d1d24;
-    padding: 5px 0;
-    font-weight: bold;
-}
-
-nav  ul li a:hover{
-    color: #fd4766;
-
-}
-
-nav ul li a::after{
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 0;
-    position: absolute;
-    height: 3px;
-    background: #fd47661f;
-    transition: .3s;
-}
-
-nav ul li a:hover::after{
-    width: 100%;
-}
-.image img{
-    position: fixed;
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.image {
-    width: 30%;
-    height: 50%;
-    position: fixed;
-    top: 20% 30px;
-    bottom: 20% 80px;
-    right: 20px;
-    left: 30px;
-}
-.detail {
-position: absolute;
-top: 50%;
-left: 8;
-}
-.detail h1{
-    position: relative;
-    color: #1f1f25;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 70px;
-    top: auto;
-    left: 80px;
-}
-.detail h1 span{
-    position: relative;
-    color: #fd4766;
-}
-.detail h2{
-    position: relative;
-    color: #232357;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 70px;
-    top: auto;
-    left: 80px;
-
-}
-
-
-</style>
-<body>
-    <div class="hero">
-        <nav>
-            <p class="logo">Kavindya</p>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Photo b</a></li>
-
-            </ul>
-            <a href="#" class="btn">Hire me</a>
-
-            </p>
-        </nav>
-    </div>
-    <div class="image">
-        <img src="20231028_231756.png" class="rounded mx-auto d-block" alt=""></div>
-    <div class ="detail">
-        <h1>Hi ,I'm  <span>Kavindya</span></h1>
-        <h2> Web Developer</h2>
-        
-    </div>
-    
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1 class="Logo">Kavindya.</h1>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact me</a>
+            </nav>
+        </header>
+        <div class="text-box"
+             <h1>Hi, I'm Kavindya Sathsarani</h1>
+             <h1>
+                <span class="skills">Frontend developer</span>
+             </h1>
+             <p>A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+             <div class="icon-box">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-linkedin' ></i>
+                <i class='bx bxl-twitter' ></i>
+             </div>
+             <button class="downloadBtn">Download cv</button>
+             <button class="ContactBtn">Contact me</button>
+             <button class="ContactBtn">skills</button>
+        </div>
+        <div class="img-box">
+            <img src="img/IMG-20231117-WA0050.jpg" draggable="false" alt="">
+        </div>
+            
+         <script src="script.js"></script>   
+    </body>
+    </html>
